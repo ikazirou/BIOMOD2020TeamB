@@ -2,27 +2,40 @@
 
 
 /* .クラス名　で設定するクラスを選択します。”main”を選択します*/
-body{
-   background-color: aliceblue;
+*body{
+   background-color: #fff;
    font-family:serif;
+    padding: 0px;
 }
 
 h{
-    font-family: cursive
+    font-family: cursive;
 }
 
 p{
-  background-color: honeydew
+ 
+}
+
+
+
+.title{
+    
+    font-size: 60px;
+    text-align: center;
+    border: solid;
+    border-radius: 8px;
 }
 
 .main{
   max-width: 800px;
   width:800px;
-  background-color: honeydew;
+
   /* mainの背景の色を水色にします。*/
   margin: 10px 300px;
   padding: 100px 10px 10px 10px;
- 
+ margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     
 /* cssのコマンドはたくさんあるので, 必要になったらその都度ネットで調べてコピペするといいでしょう。必ず終わりに；を忘れないように, c言語と同じような注意点です。cssは, 1つエラーがあると, ドミノ倒し式に, 他のコマンドもエラーになります。試しに；や｝を一つ消してみてください。*/
     
@@ -32,7 +45,7 @@ p{
 .sub{
     max-width:900px;
     height: 600px;
-    background-color: honeydew;
+
 }
 
 
@@ -42,35 +55,45 @@ p{
     /* フォントサイズを30pxにします*/
 }
 
+.ue{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222222;
+}
+
 .midashi{
     width: 300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
+    color: aliceblue
 }
 
 .head{
    margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 100%;
     height: 64px;
-    background: #fff;
     padding: :8px;
+    text-align: center
 }
 
 .menu{
     display: inline-flex;
-    list-style: :none;
+    list-style: none;
     margin: 0;
     padding: 0;
     height: 48px;
     cursor: default;
+    color: aliceblue;
 }
 
 .menu a{
     /*ヘッダーの文字全体*/
     text-decoration: none;
     color: inherit;
+    
 }
 
 .menu>a>.category,
