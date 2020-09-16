@@ -2,10 +2,11 @@
 
 
 /* .クラス名　で設定するクラスを選択します。”main”を選択します*/
-*body{
+body{
    background-color: #fff;
    font-family:serif;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 h{
@@ -16,11 +17,128 @@ p{
  
 }
 
+.ue{
+    margin-top: 0;
+    padding: 6;
+    background-color: #222222;
+    
+}
+
+.midashi{
+   
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    color: aliceblue
+}
+
+.head{
+   margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 64px;
+    padding: :8px;
+    text-align: center
+}
+
+.menu{
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    cursor: default;
+    color: aliceblue;
+}
+
+.menu a{
+    /*ヘッダーの文字全体*/
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.category1{
+    position: relative;
+    padding: 0 6px;
+    height: 62px;
+}
+
+.menu>*:first-child{
+    /*ヘッダーの頭をいじる*/
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu>*:last-child{
+    /*ヘッダーのお尻をいじる*/
+    padding-right: 0;
+}
+
+.menu1{
+    display: inline-block;
+    height: 54px;
+    line-height: 46px;
+    font-size:20px;
+    margin-top: 10px;
+    padding: 0 12px;;
+    list-style: none;
+   white-space: nowrap;
+}
+
+
+
+.category1:hover>.menu1,
+.menu>a:hover>.category>.menu
+{
+    /*合わせた時の色の変化*/
+  background-color: beige;
+    color: black;
+}
+
+.menu2{
+
+
+padding: 0;
+   width: auto;
+    position: absolute;
+    height: 0;
+    list-style: none;
+     text-align: center;
+    overflow: hidden;
+    background-color:black;
+   
+}
+
+.category1:hover>.menu2{
+    height: auto;
+    padding: 6px 0;
+}
+
+.menu2>.menu3,
+.menu2>.menu3{
+    cursor: pointer;
+    height: 102px;
+    line-height: 20px;
+    padding: 6px 12px;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.head_m3{ 
+}
+
+
+
 .yoko{
     position: absolute;
      width: 200px;
     display: inline-flex;
-    font-size: 20px;
+    font-size: 30px;
+    line-height: 250%;
+    text-align: center;
     }
 
 .yoko li{
@@ -64,118 +182,6 @@ p{
     /* フォントサイズを30pxにします*/
 }
 
-.ue{
-    margin: 0px;
-    padding: 0px;
-    background-color: #222222;
-    
-}
-
-.midashi{
-   
-    width: 300px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    color: aliceblue
-}
-
-.head{
-   margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 64px;
-    padding: :8px;
-    text-align: center
-}
-
-.menu{
-    display: inline-flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    height: 48px;
-    cursor: default;
-    color: aliceblue;
-}
-
-.menu a{
-    /*ヘッダーの文字全体*/
-    text-decoration: none;
-    color: inherit;
-    
-}
-
-.menu>a>.category,
-.menu>category{
-    position: relative;
-    padding: 0 6px;
-    
-}
-
-.menu>*:first-child{
-    /*ヘッダーの頭をいじる*/
-    padding-left: 0;
-    list-style: none;
-}
-
-.menu>*:last-child{
-    /*ヘッダーのお尻をいじる*/
-    padding-right: 0;
-}
-
-.menu1{
-    display: inline-block;
-    height: 36px;
-    line-height: 46px;
-    font-size:20px;
-    margin-top: 10px;
-    padding: 0 12px;;
-    list-style: none;
-    border-radius: 4px;
-   white-space: nowrap;
-}
-
-
-
-.category:hover>menu1,
-.menu>a:hover>category>menu
-{
-    
-  background-color: rgba(0,0,0,.55);
-}
-
-.menu2{
-    position:absolute;
-    top:269px;
-    width: 80px;
-    list-style: :none;
-     text-align: center;
-    padding: 0;
-    height: 0;
-    overflow: hidden;
-    background-color: #fff;
-    border-radius: 4px;
-}
-
-.category:hover>.menu2{
-    height: auto;
-    padding: 6px 0;
-}
-
-.menu2>.menu3,
-.menu2>.menu3{
-    cursor: pointer;
-    height: 102px;
-    line-height: 20px;
-    padding: 6px 12px;
-    font-size: 18px;
-    white-space: nowrap;
-}
-
-.head_m3{ 
-}
 
 
 @media screen and ( max-width:700px ){
