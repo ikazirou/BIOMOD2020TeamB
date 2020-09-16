@@ -16,7 +16,16 @@ p{
  
 }
 
+.yoko{
+    position: absolute;
+     width: 200px;
+    display: inline-flex;
+    font-size: 20px;
+    }
 
+.yoko li{
+    list-style: none;
+}
 
 .title{
     
@@ -182,16 +191,7 @@ p{
 
 }
 
-    .yoko {
-        position: absolute;
-        
-        width: 100px;
-    
-        display: list-item;
-        list-style: none;
-        
-        
-    }
+ 
     
 p:hover{
     color: darkviolet;
