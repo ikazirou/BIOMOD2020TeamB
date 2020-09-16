@@ -32,7 +32,7 @@ p{
 
   /* mainの背景の色を水色にします。*/
   margin: 10px 300px;
-  padding: 100px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
  margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -59,6 +59,7 @@ p{
     margin: 0px;
     padding: 0px;
     background-color: #222222;
+    
 }
 
 .midashi{
@@ -181,8 +182,15 @@ p{
 
 }
 
-    .color{
-        color: red;
+    .yoko {
+        position: absolute;
+        
+        width: 100px;
+    
+        display: list-item;
+        list-style: none;
+        
+        
     }
     
 p:hover{
