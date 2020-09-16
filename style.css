@@ -181,7 +181,10 @@ p{
 
 }
 
-
+    .color{
+        color: red;
+    }
+    
 p:hover{
     color: darkviolet;
 }
