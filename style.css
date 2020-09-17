@@ -64,6 +64,7 @@ p{
     position: relative;
     padding: 0 6px;
     height: 62px;
+    width: 130px;
 }
 
 .menu>*:first-child{
@@ -79,6 +80,7 @@ p{
 
 .menu1{
     display: inline-block;
+    width: 120px;
     height: 54px;
     line-height: 46px;
     font-size:20px;
@@ -105,6 +107,7 @@ padding: 0;
    width: auto;
     position: absolute;
     height: 0;
+    width: 145px;
     list-style: none;
      text-align: center;
     overflow: hidden;
@@ -125,6 +128,22 @@ padding: 0;
     padding: 6px 12px;
     font-size: 18px;
     white-space: nowrap;
+}
+
+.menu4{
+    
+    display: inline-block;
+    width: 120px;
+    height: 54px;
+    line-height: 46px;
+    font-size:20px;
+    margin-top: 10px;
+    padding: 0 12px;;
+    list-style: none;
+   white-space: nowrap;
+    color: coral;
+    text-decoration: underline;
+
 }
 
 .head_m3{ 
