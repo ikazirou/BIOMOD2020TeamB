@@ -119,17 +119,27 @@ padding: 0;
 
 .category1:hover>.menu2{
     height: auto;
-    padding: 6px 0;
+    padding: 0px 0;
 }
 
-.menu2>.menu3,
-.menu2>.menu3{
+
+.menu3{
+    padding: 10px;
+    
+}
+
+
+
+
+.menu3:hover{
     cursor: pointer;
-    height: 102px;
-    line-height: 20px;
-    padding: 6px 12px;
-    font-size: 18px;
-    white-space: nowrap;
+ 
+   
+ 
+ 
+    background-color: beige;
+    color: black;
+  
 }
 
 .menu4{
@@ -148,18 +158,18 @@ padding: 0;
 
 }
 
-.head_m3{ 
-}
+
 
 
 
 .yoko{
-    position: absolute;
+    position: fixed;
      width: 200px;
     display: inline-flex;
     font-size: 30px;
     line-height: 250%;
     text-align: center;
+    margin-left: 10px;
     }
 
 .yoko li{
