@@ -2,15 +2,22 @@
 
 
 /* .クラス名　で設定するクラスを選択します。”main”を選択します*/
+
+    
+
+
+
 body{
    background-color: #fff;
    font-family:serif;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -50px;
 }
 
 h{
     font-family: cursive;
+
 }
 
 p{
@@ -88,13 +95,12 @@ p{
     padding: 0 12px;;
     list-style: none;
    white-space: nowrap;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 
 
-.category1:hover>.menu1,
-.menu>a:hover>.category>.menu
+.category1:hover .menu1
 {
     /*合わせた時の色の変化*/
   background-color: beige;
@@ -113,13 +119,14 @@ padding: 0;
      text-align: center;
     overflow: hidden;
     background-color:black;
-    transition: 0.5s;
+    transition: 0.2s;
    
 }
 
 .category1:hover>.menu2{
     height: auto;
     padding: 0px 0;
+    transition: 0.2s;
 }
 
 
@@ -174,6 +181,10 @@ padding: 0;
 
 .yoko li{
     list-style: none;
+}
+
+.yoko li:hover{
+    text-decoration: underline;
 }
 
 .title{
