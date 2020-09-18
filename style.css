@@ -6,7 +6,6 @@
     
 
 
-
 body{
    background-color: #fff;
    font-family:serif;
@@ -26,19 +25,22 @@ p{
 
 .ue{
     margin-top: 0;
-    padding: 6;
+    padding: 0px;
     background-color: #222222;
     
 }
 
 .midashi{
-   
     width: 300px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 0;
+    
     color: aliceblue
+}
+.midashi h1{
+    padding-top: 20px;
+    
 }
 
 .head{
