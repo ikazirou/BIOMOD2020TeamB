@@ -8,7 +8,7 @@
 
 body{
    background-color: #fff;
-   font-family:serif;
+   font-family:cursive;
     padding: 0px;
     margin: 0px;
     
@@ -22,6 +22,7 @@ h{
 
 h1{
     font-size: 60px;
+    font-family:;
 }
 
 p{
@@ -30,50 +31,32 @@ p{
 
 .ue{
     background-color: #FFF;
-    background-color: beige;
+    background-color: ;
    
 }
 
 .midashi{
-    width: 330px;
+    width: 100%;
     text-align: left;
-    margin-left: 0px;
-    margin-right: auto;
      color: black;
-    font-size: 15px;
-    height: 65px;
-    padding-top: 1px;
-}
-.midashi h1{
-    padding-top: 0px;
+    font-size: 30px;
+    margin-left: 5%;
     
 }
 
+
 .head{
+    position: absolute;
     top: 0%;
     right: 5%;
-    position: absolute;
-   margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    height: 64px;
-    padding: :8px;
+    width: 50%;
+    padding: 8px;
     text-align:center;
-        
-      
 }
 
 .menu{
-    
     display: inline-flex;
-    
-    list-style: none;
-    width: auto;
-    margin: 0;
-    padding: 0;
-    height: 60px;
     cursor: default;
-    color: black;
 }
 
 .menu a{
@@ -86,19 +69,14 @@ p{
 .category1{
     position: relative;
     padding: 0 6px;
-    height: 62px;
-    width: 130px;
 }
 
 .menu>*:first-child{
     /*ヘッダーの頭をいじる*/
-    padding-left: 0;
-    list-style: none;
 }
 
 .menu>*:last-child{
     /*ヘッダーのお尻をいじる*/
-    padding-right: 0;
 }
 
 .menu1{
@@ -109,8 +87,6 @@ p{
     font-size:20px;
     margin-top: 10px;
     padding: 0 12px;
-    list-style: none;
-   white-space: nowrap;
     transition: 0.2s;
 }
 
@@ -119,29 +95,27 @@ p{
 .category1:hover .menu1
 {
     /*合わせた時の色の変化*/
-  background-color: beige;
-    color: black;
+  background-color: #000088;
+    color: #FFF;
 }
 
 .menu2{
-
-
-padding: 0;
    width: auto;
     position: absolute;
-    height: 0;
+    height: 0px;
     width: 145px;
     list-style: none;
      text-align: center;
     overflow: hidden;
     background-color:red;
     transition: 0.2s;
+    z-index: 1;
    
 }
 
 .category1:hover>.menu2{
+    
     height: auto;
-    padding: 0px 0;
     transition: 0.2s;
 }
 
@@ -168,7 +142,7 @@ padding: 0;
 .menu4{
     
     display: inline-block;
-    width: 100%;
+    width: 120px;
     height: 54px;
     line-height: 46px;
     font-size:20px;
@@ -176,7 +150,7 @@ padding: 0;
     padding: 0 12px;;
     list-style: none;
    white-space: nowrap;
-    color: coral;
+    color: #000088;
     text-decoration: underline;
 
 }
@@ -204,12 +178,19 @@ padding: 0;
 }
 
 .title{
-    margin: 0px;
-    
+    position: relative;
     width: 100%;
     font-size: 60px;
     text-align: center;
     background-color: aqua;
+    height: 300px;
+}
+
+.title a{
+    position:absolute;
+    left:3%;
+    bottom: 3%;
+
 }
 
 .main{
