@@ -26,40 +26,50 @@ p{
 .ue{
     margin-top: 0;
     padding: 0px;
-    background-color: #222222;
-    
+    background-color: #FFF;
+    height: 75px;
 }
 
 .midashi{
-    width: 300px;
-    text-align: center;
-    margin-left: auto;
+    width: 330px;
+    text-align: left;
+    margin-left: 0px;
     margin-right: auto;
-    
-    color: aliceblue
+     color: black;
+    font-size: 15px;
+    height: 65px;
+    padding-top: 1px;
 }
 .midashi h1{
-    padding-top: 20px;
+    padding-top: 0px;
     
 }
 
 .head{
+    top: 0%;
+    right: 5%;
+    position: absolute;
    margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 55%;
     height: 64px;
     padding: :8px;
-    text-align: center
+    text-align:center;
+        
+      
 }
 
 .menu{
+    
     display: inline-flex;
+    
     list-style: none;
+    width: auto;
     margin: 0;
     padding: 0;
-    height: 48px;
+    height: 60px;
     cursor: default;
-    color: aliceblue;
+    color: black;
 }
 
 .menu a{
@@ -94,7 +104,7 @@ p{
     line-height: 46px;
     font-size:20px;
     margin-top: 10px;
-    padding: 0 12px;;
+    padding: 0 12px;
     list-style: none;
    white-space: nowrap;
     transition: 0.2s;
@@ -120,7 +130,7 @@ padding: 0;
     list-style: none;
      text-align: center;
     overflow: hidden;
-    background-color:black;
+    background-color:red;
     transition: 0.2s;
    
 }
@@ -154,7 +164,7 @@ padding: 0;
 .menu4{
     
     display: inline-block;
-    width: 120px;
+    width: 100%;
     height: 54px;
     line-height: 46px;
     font-size:20px;
@@ -190,11 +200,10 @@ padding: 0;
 }
 
 .title{
-    
+    width: 100%;
     font-size: 60px;
     text-align: center;
-    border: solid;
-    border-radius: 8px;
+    
 }
 
 .main{
