@@ -11,7 +11,7 @@ body{
    font-family:serif;
     padding: 0px;
     margin: 0px;
-    margin-top: -50px;
+    
 }
 
 h{
@@ -19,15 +19,19 @@ h{
 
 }
 
+
+h1{
+    font-size: 60px;
+}
+
 p{
  
 }
 
 .ue{
-    margin-top: 0;
-    padding: 0px;
     background-color: #FFF;
-    height: 75px;
+    background-color: beige;
+   
 }
 
 .midashi{
@@ -200,60 +204,40 @@ padding: 0;
 }
 
 .title{
+    margin: 0px;
+    
     width: 100%;
     font-size: 60px;
     text-align: center;
-    
+    background-color: aqua;
 }
 
 .main{
-  max-width: 800px;
-  width:800px;
+    
+
+  width:60%;
 
   /* mainの背景の色を水色にします。*/
   margin: 10px 300px;
   padding: 10px 10px 10px 10px;
  margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
     
 /* cssのコマンドはたくさんあるので, 必要になったらその都度ネットで調べてコピペするといいでしょう。必ず終わりに；を忘れないように, c言語と同じような注意点です。cssは, 1つエラーがあると, ドミノ倒し式に, 他のコマンドもエラーになります。試しに；や｝を一つ消してみてください。*/
     
 }
 
 /* クラスsubのデザインも同様変えます*/
-.sub{
-    max-width:900px;
-    height: 600px;
-
-}
-
-
-/* 要素のidを指定します。要素では,クラスと違い（　．）でなく＃を頭に描きます*/
-#sub_id{
-    font-size: 30px; 
-    /* フォントサイズを30pxにします*/
-}
 
 
 
-@media screen and ( max-width:700px ){
 
 
-.main{
-  max-width:1000px;
-     width:800px;
-  background-color: yellow;
-  margin: 100px;
-    padding: 100px 10px 10px 10px;
-    
 
 
 }
 
  
     
-p:hover{
-    color: darkviolet;
-}
 
