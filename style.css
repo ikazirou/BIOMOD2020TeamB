@@ -210,14 +210,14 @@ p{
 
 .main{
     
-max-width: 800px;
-  
+max-width: 1000px;
+  width: 1000px;
 
   /* mainの背景の色を水色にします。*/
   margin: 10px 300px;
   padding: 10px 10px 10px 10px;
- margin-left: auto;
-    margin-right: auto;
+    
+margin-right: auto;
     text-align: left;
     
 /* cssのコマンドはたくさんあるので, 必要になったらその都度ネットで調べてコピペするといいでしょう。必ず終わりに；を忘れないように, c言語と同じような注意点です。cssは, 1つエラーがあると, ドミノ倒し式に, 他のコマンドもエラーになります。試しに；や｝を一つ消してみてください。*/
