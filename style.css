@@ -190,12 +190,12 @@ p{
 .title{
     position: relative;
     width: 1550px;
-    font-size: 60px;
+    font-size: 80px;
     text-align: center;
     background-color: aqua;
     height: 510px;
     font-weight: 600;
-    text-shadow: 5px 5px #2e8b57;
+    text-shadow: 5px 5px gray;
 }
 
 .title img{
