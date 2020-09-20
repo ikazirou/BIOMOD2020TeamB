@@ -169,23 +169,7 @@ p{
 
 
 
-.yoko{
-    position: fixed;
-     width: 200px;
-    display: inline-flex;
-    font-size: 30px;
-    line-height: 250%;
-    text-align: center;
-    margin-left: 10px;
-    }
 
-.yoko li{
-    list-style: none;
-}
-
-.yoko li:hover{
-    text-decoration: underline;
-}
 
 .title{
     position: relative;
@@ -212,7 +196,8 @@ p{
 }
 
 .main{
-    
+    position:relative;
+    top:0px;
 max-width: 1000px;
   width: 1000px;
 
@@ -229,6 +214,40 @@ margin-right: auto;
     text-decoration:underline;
     text-underline-position: under;
     
+}
+
+
+.submain{
+    width: 200px;
+    height: 100%;
+    top:auto;
+    margin-left: 0;
+    
+}
+
+.yoko{
+    position: -webkit-sticky;
+    position: sticky;
+   top: auto;
+     width: 200px;
+    display: inline-flex;
+    font-size: 30px;
+    line-height: 2em;
+    text-align: center;
+    margin-left: -350px;
+    top;10px;
+    }
+
+.yoko li{
+    list-style: none;
+}
+
+.yoko li:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+
 }
 
 /* クラスsubのデザインも同様変えます*/
