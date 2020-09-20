@@ -15,7 +15,7 @@ body{
 }
 
 h{
-    font-family: cursive;
+    font-family:inherit;
 
 }
 
@@ -23,10 +23,12 @@ h{
 h1{
     font-size: 60px;
     font-family:;
+    line-height: 2em
 }
 
 p{
- 
+ line-height: 1.5em;
+     font-size: 20px;
 }
 
 .ue{
@@ -49,7 +51,7 @@ p{
     position: absolute;
     top: 0%;
     right: 5%;
-    width: 50%;
+    width:auto;
     padding: 8px;
     text-align:center;
 }
@@ -80,6 +82,7 @@ p{
 }
 
 .menu1{
+    position: relative;
     display: inline-block;
     width: 120px;
     height: 54px;
@@ -100,14 +103,18 @@ p{
 }
 
 .menu2{
-   width: auto;
-    position: absolute;
+ 
+   
+
     height: 0px;
-    width: 145px;
+    width: 120%;
+        position: absolute;
+   right:0;
+    left: 0;
     list-style: none;
      text-align: center;
     overflow: hidden;
-    background-color:red;
+    background-color:#fff;
     transition: 0.2s;
     z-index: 1;
    
@@ -130,13 +137,13 @@ p{
 
 .menu3:hover{
     cursor: pointer;
- 
-   
- 
- 
-    background-color: beige;
+    background-color: #000088;
+    color: #FFF;
+}
+
+.menu3:hover>.menu1 {
+    background-color: #FFF;
     color: black;
-  
 }
 
 .menu4{
@@ -144,10 +151,11 @@ p{
     display: inline-block;
     width: 120px;
     height: 54px;
+    
     line-height: 46px;
     font-size:20px;
     margin-top: 10px;
-    padding: 0 12px;;
+    padding: 0 12px;
     list-style: none;
    white-space: nowrap;
     color: #000088;
@@ -179,11 +187,17 @@ p{
 
 .title{
     position: relative;
-    width: 100%;
+    width: 1600px;
     font-size: 60px;
     text-align: center;
     background-color: aqua;
-    height: 300px;
+    height: 510px;
+}
+
+.title img{
+    position: absolute;
+    width: 100%;
+    left:0;
 }
 
 .title a{
