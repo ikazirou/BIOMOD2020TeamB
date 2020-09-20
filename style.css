@@ -161,6 +161,7 @@ p{
    white-space: nowrap;
     color: #000088;
     text-decoration: underline;
+    text-underline-position: under;
 
 }
 
@@ -193,6 +194,8 @@ p{
     text-align: center;
     background-color: aqua;
     height: 510px;
+    font-weight: 600;
+    text-shadow: 5px 5px #2e8b57;
 }
 
 .title img{
@@ -219,8 +222,12 @@ max-width: 1000px;
     
 margin-right: auto;
     text-align: left;
-    
-/* cssのコマンドはたくさんあるので, 必要になったらその都度ネットで調べてコピペするといいでしょう。必ず終わりに；を忘れないように, c言語と同じような注意点です。cssは, 1つエラーがあると, ドミノ倒し式に, 他のコマンドもエラーになります。試しに；や｝を一つ消してみてください。*/
+        
+}
+
+.main h1{
+    text-decoration:underline;
+    text-underline-position: under;
     
 }
 
