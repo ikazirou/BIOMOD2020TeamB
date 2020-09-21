@@ -175,10 +175,13 @@ p{
     width: 1550px;
     font-size: 80px;
     text-align: center;
-    background-color: aqua;
+    background-color: silver;
     height: 510px;
     font-weight: 600;
     text-shadow: 5px 5px gray;
+    border-bottom: solid;
+    border-top: solid;
+    border-top-color: black;
 }
 
 .title img{
