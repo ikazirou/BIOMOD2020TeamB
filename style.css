@@ -302,6 +302,16 @@ margin-right: auto;
     text-align: center;
 }
 
+.submainMethod{
+     position: absolute;
+    width: 300px;
+    height: 4600px;
+    top:580px;
+    margin-left: 0;
+  
+    text-align: center;
+}
+
 
 
 
