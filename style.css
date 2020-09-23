@@ -342,21 +342,35 @@ margin-right: auto;
    top: 300px;
      width: 200px;
     display: inline-flex;
-    font-size: 30px;
-    line-height: 2em;
-    text-align: center;
+    
+    text-align: left;
     
     top;10px;
     color: black;
+    margin-left: 20px
   
     
     }
 
-.yoko li{
+.omo{
     list-style: none;
+    font-size: 30px;
+    line-height: 2em;
 }
 
-.yoko li:hover{
+.omo:hover{
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.sabu{
+    list-style:none;
+    font-size: 18px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.sabu:hover{
     text-decoration: underline;
     text-underline-position: under;
 }
