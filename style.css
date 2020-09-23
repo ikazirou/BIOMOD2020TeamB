@@ -252,11 +252,18 @@ margin-right: auto;
     
 }
 
+.gazoX{
+    display: flexbox;
+    
+}
+
 .gazo{
+    
     line-height: 100px;
     display: inline-block;
     text-align: center;
- background-color: aqua;
+ 
+    margin-top:50px;
 }
 
 
