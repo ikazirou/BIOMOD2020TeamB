@@ -23,13 +23,14 @@ h{
 
 h1{
     font-size: 60px;
-    font-family:;
-    line-height: 2em
+    font-weight: 800;
+    line-height: 3em
 }
 
 h2{
     font-size: 30px;
-    line-height: 2em;
+    font-weight: 800;
+    line-height: 3em;
 }
 
 h6{
@@ -38,7 +39,7 @@ h6{
 }
 
 p{
- line-height: 1.5em;
+ line-height: 2em;
      font-size: 20px;
 }
 
@@ -252,9 +253,10 @@ margin-right: auto;
 }
 
 .gazo{
-    padding-left: 10px;
-    padding-right: 100px;
-    background-color: aqua;
+    line-height: 100px;
+    display: inline-block;
+    text-align: center;
+ background-color: aqua;
 }
 
 
@@ -286,7 +288,7 @@ margin-right: auto;
     
     top;10px;
     color: black;
-    background-color: aqua;
+  
     
     }
 
