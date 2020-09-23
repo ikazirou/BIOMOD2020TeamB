@@ -36,6 +36,10 @@ p{
      font-size: 20px;
 }
 
+img{
+    text-align: center;
+}
+
 .ue{
     width: 1550px;
     background-color: #FFF;
@@ -225,7 +229,7 @@ max-width: 1000px;
     
 margin-right: auto;
     text-align: left;
-        
+    align-items: center;
 }
 
 .main h1{
@@ -233,6 +237,13 @@ margin-right: auto;
     text-underline-position: under;
     
 }
+
+.gazo{
+    display: inline-block;
+    text-align: center;
+}
+
+
 
 
 .submain{
