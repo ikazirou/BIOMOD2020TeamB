@@ -107,13 +107,10 @@
            </p>
            <p>2:Determine if Hybridization Chain Reaction actually occurs
 
-            
-            実際にHCRが起きるかどうかを調べる。
-            (実際のHCRの動作性のシミュレーション)
            </p>
            
            <h2>
-            Evalution of DNA stability(DNAの安定性の評価) </h2>
+            Evalution of DNA stability </h2>
            <p>To achieve the first purpose we use "NUPACK"(7) to determin the hairpin structure.
             For the following strand combination, simulation carried out using NUPACK.
             The length of the stem and loop was adjusted  according to the reference.(8)
@@ -147,12 +144,12 @@
            </p>
            
            
-           <h2>Consideration of whether HCR will occur(HCRが起きるかの考察)</h2>
+           <h2>Consideration of whether HCR will occur</h2>
            <p>To achieve the second purpose. we confirmed HCR simulation using Visual DSD(9).
             
             Firstly, when Inisiator was introduced in the presence of two hairpin DNAs, it was confirmed whether HCR progressed by the two hairpin DNAs. 
             The reaction system is shown in Fig6.
-               (2のHCRのシュミレーションはVisual DSDを用いて行った。まずは、ヘアピン構造がHCRのみを起こす場合を考える。反応体系は以下のとおりである)</p>
+               </p>
            
            <img src="DSD1.png">
            <h6>Fig.6 Hybridization reactions of initiator and hairpin DNA</h6>
@@ -167,7 +164,7 @@
            <p>
             We found that H1 was opened by the Initiator, then the hairpin of H2 was opened  by the exposed toehold of H1 and bound in a chain reaction with it.
             This result suggests that the designed DNA promotes HCR properly.
-            InitiatorによりH1が開き，それと連鎖的にH2がヘアピンが開かれ結合することがわかった．この結果は設計したDNAによりHCRが適切に進行することを示唆している．
+            
            </p>
            <p>
             In reality, the stem of the hairpin may open, causing a leak reaction in which the HCR progresses without an initiator.
@@ -193,15 +190,16 @@
           
            <p>
             By using stochastic simulation, although there is some blurring, both the initiator and hairpin tend to decrease every hour, and we expect that the reaction can occur without any problems.
-            多少のブレはあるが、時間ごとにイニシエーター、ヘアピンはどちらも減少傾向にあり、問題なく反応は起こせていると考える。</p>
+           </p>
            
            
            <h2>Whether an initiator is generated from the aptamer complex.
-               アプタマー複合体からイニシエーターが生成されるかどうか</h2>
+              </h2>
            <p>
            Using Visual DSD, we investigated whether an initiator was generated when there was a sequence that binds complementarily to an aptamer.
+           </p>
                
-               アプタマーと相補的に結合するような配列があった際に、イニシエーターが生成されるかをVisual DSDを用いて調べた。
+               
             
                <img src="DSD5.png"alt=""width="70%"height="30%">
            <h6>Fig10 Reaction of aptamer-initiator complex with Angiotensin-converting enzyme 2(ACE2)</h6>
