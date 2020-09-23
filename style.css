@@ -292,6 +292,16 @@ margin-right: auto;
     
 }
 
+.submainteam{
+     position: absolute;
+    width: 300px;
+    height: 1100px;
+    top:580px;
+    margin-left: 0;
+  
+    text-align: center;
+}
+
 
 .yoko{
     position: -webkit-sticky;
