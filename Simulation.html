@@ -114,7 +114,7 @@
             Evalution of DNA stability(DNAの安定性の評価) </h2>
            <p>For the first purpose we　use "NUPACK"(7) to determin the hairpin structure.
             For the following strand combination, simulation carried out using NUPACK.
-            The length of the stem and loop was adjusted with reference.(1)
+            The length of the stem and loop was adjusted with reference.(8)
             The results are shown in Fig. 1-2.
            </p>
            <img src="NU1.png">
@@ -142,24 +142,34 @@
            <p>This is hairpin of H1-H2-Initiator structure at 24˚C.
            </p>
            
+           
            <h2>Consideration of whether HCR will occur(HCRが起きるかの考察)</h2>
-           <p>For the second purpose. HCR simulation was performed using Visual DSD. First, consider the case where the hairpin structure causes only HCR. The reaction system is as follows(2のHCRのシュミレーションはVisual DSDを用いて行った。まずは、ヘアピン構造がHCRのみを起こす場合を考える。反応体系は以下のとおりである)</p>
+           <p>For the second purpose.  we performed HCR simulation using Visual DSD(9).
+            
+            First, when Inisiator was introduced in the presence of two hairpin DNAs, it was confirmed whether HCR progressed by the two hairpin DNAs. 
+            The reaction system is shown in fig..XXXXX
+               (2のHCRのシュミレーションはVisual DSDを用いて行った。まずは、ヘアピン構造がHCRのみを起こす場合を考える。反応体系は以下のとおりである)</p>
            <img src="DSD1.png">
-           <p>Looking at the time change of such a reaction.(このような反応の時間変化を見るとこのようになる)</p>
+           <p>The results of time-dependent changes in the concentration of each DNA obtained from the above reaction system are shown in the figure.XXX
+           </p>
            <img src="DSD2.png">
            
            <p>
-            It is true that the concentration of the hairpin structure decreases as the concentration of the inisiator decreases, indicating that HCR occurs without any problem.
-            確かにinisiatorの濃度減少とともにヘアピン構造の濃度が減っており、問題なくHCRが起きていることがわかる。</p>
+            t was found that H1 was opened by the Initiator, and the hairpin of H2 was opened and bound in a chain reaction with it.
+            This result suggests that the designed DNA promotes HCR properly.
+            InitiatorによりH1が開き，それと連鎖的にH2がヘアピンが開かれ結合することがわかった．この結果は設計したDNAによりHCRが適切に進行することを示唆している．
+           </p>
            <p>
-            However, in reality, hairpins do not only cause HCR, but also cause leaks reaction that unlock and react by themselves.
-            Therefore, next, consider the reaction considering the leak.
-            Set the reaction model considering the leak as follows.
-            しかし、実際にはヘアピンはHCRのみを起こすのではなく、自ら解錠し反応するようなリークを起こす。そのため、次にリークも考慮した反応を考える。リークを考慮した反応モデルを以下のように設定する。
+            In reality, the stem of the hairpin may open, causing a leak reaction in which the HCR progresses without an initiator.
+            Therefore,we evaluated the stability of the system considering the leak reaction.
+            The modified reaction system is shown in fig.x.  XXXXX
+            
            </p>
           
            <img src="">
-           <p>When we try to simulate this reaction, it looks like this.この反応をシュミレーションしてみるとこのようになる</p>
+           <p>
+            The results of time-dependent changes in the concentration of each DNA obtained from the above reaction system are shown in the figure.X.XXXXXX
+               この反応をシュミレーションしてみるとこのようになる</p>
            <img src="DSD4.png">
            <p>
             Although there is some blurring, both the initiator and hairpin tend to decrease every hour, and we think that the reaction can occur without any problem.
