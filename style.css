@@ -242,7 +242,8 @@ margin-right: auto;
 }
 
 .gazo{
-    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 100px;
     background-color: aqua;
 }
 
